@@ -244,7 +244,7 @@ button:hover{
 .svg4{
     position: absolute;
     z-index: -2;
-    top: 2700px;
+    top: 2750px;
     left: 100px;
 }
 
@@ -252,7 +252,7 @@ button:hover{
     position: absolute;
     z-index: -2;
     top: 3000px;
-    left: 750px;
+    left: 650px;
 }
 
 .grid-container { 
@@ -275,7 +275,8 @@ button:hover{
     align-items: center;
     color: black;
     font-family: "Playfair Display";
-    font-size: 28px;
+    text-align: center;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -345,8 +346,8 @@ button:hover{
     justify-content: space-between;
     align-items: center;
     padding: 0 15vw;
-    margin-top: 35vh;
-    height: 55vh;
+    margin-top: 40vh;
+    height: 70vh;
 }
 
 .newsletter-container{
@@ -380,8 +381,8 @@ button:hover{
 }
 
 .app{
-    width: 20vw;
-    transform: translateY(-13%);
+    width: 400px;
+    transform: translateY(-15%);
 }
 
 .footer{
@@ -400,6 +401,7 @@ button:hover{
     gap: 15px;
     font-family: 'Lustria';
     font-size: 18px;
+    padding-left: 0;
 }
 
 .socials{
@@ -425,7 +427,7 @@ button:hover{
     }
 
     .hero{
-        height: 60vh;
+        height: 80vh;
     }
 
     .hero-container h1, .hero-container h2, .hero-container p{
@@ -436,7 +438,7 @@ button:hover{
     .hero-container{
         padding: 15px 0;
         border-radius: 20px;
-        transform: translate(0, 50%);
+        transform: translate(0, 70%);
         width: 100%;
         gap: 15px;
         text-align: center;
@@ -460,6 +462,72 @@ button:hover{
 
     .nav-btn{
         visibility: hidden;
+    }
+
+    .video-container{
+        flex-direction: column;
+        padding: 15px;
+        gap: 30px;
+    }
+    
+    .video {
+        width: 60vw;
+    }
+    
+    .video-text{
+        width: 90%;
+    }
+
+    .grid-container { 
+        grid-template-columns: 30vw 30vw 30vw;
+        grid-template-rows: 20vh 20vh 20vh 20vh;
+        grid-template-areas:
+          "text1 img1 text2 "
+          "img2 text3 img3 "
+          "text4 img4 text5 "
+          "img5 text6 img6";
+    }
+    
+    .grid-text{
+        font-size: 16px;
+    }
+
+    .newsletter{
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 100px;
+        padding: 50px 25px;
+        margin-top: 10vh;
+        height: auto;
+    }
+    
+    .newsletter-container{
+        width: auto;
+        text-align: center;
+    }
+
+    .email-container{
+        width: 90%;
+    }
+    
+    .app{
+        width: 200px;
+    }
+
+    .footer{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        padding: 5vh 0;
+    }
+    
+    .footer-links{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .logo{
+        font-size: 50px;
     }
 
 }
@@ -501,5 +569,51 @@ button:hover{
     .nav-btn{
         visibility: hidden;
     }
+
+    .video-container{
+        flex-direction: column;
+        gap: 30px;
+    }
     
+    .video {
+        width: 60vw;
+    }
+    
+    .video-text{
+        width: 90%;
+    }
+
+    .grid-container {
+        grid-template-columns: 20vw 20vw 20vw 20vw;
+        grid-template-rows: 15vh 15vh 15vh;
+    }
+    
+    .grid-text{
+        font-size: 16px;
+    }
+
+    .newsletter{
+        gap: 50px;
+        height: auto;
+        padding: 0 50px;
+    }
+    .newsletter-container{
+        width: 50%;
+    }
+        
+    .email-container{
+        width: 90%;
+    }
+    
+    .app{
+        width: 300px;
+    }
+
+    .footer{
+        padding: 5vh 50px;
+    }
+    
+    .footer-links{
+        font-size: 16px;
+    }
 }
