@@ -426,6 +426,10 @@ button:hover{
         font-size: 14px;
     }
 
+    .nav-links{
+        visibility: hidden;
+    }
+
     .hero{
         height: 80vh;
     }
