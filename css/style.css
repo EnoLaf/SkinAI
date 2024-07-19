@@ -253,4 +253,46 @@ p{
     grid-area: img6; 
     background-image: url(/assets/image6.jpeg);
 }
-  
+
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15vw;
+    margin-top: 15vh;
+}
+
+.newsletter-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30vw;
+}
+    
+.email-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid var(--purple);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.email-container img{
+    width: 30px;
+    height: 30px;
+}
+
+.email-container input{
+    border: none;
+    font-family: 'Lustria';
+    width: 90%;
+}
+
+.app{
+    width: 20vw;
+}
