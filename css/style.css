@@ -128,9 +128,9 @@ p{
     padding: 50px;
 }
 
-.video-container video {
-    height: 90%;
-    width: auto;
+.video {
+    height: 50vh;
+    width: 40vw;
 }
 
 .video-text{
