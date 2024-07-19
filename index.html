@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkinAI</title>
+
+    <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -13,10 +18,11 @@
             <div class="logo">
                 SkinAI
             </div>
+
             <ul class="nav-links">
-                <li>Accueil</li>
-                <li>Fonctionnalités</li>
-                <li>App</li>
+                <li class="link">Accueil</li>
+                <li class="link">Fonctionnalités</li>
+                <li class="link">App</li>
             </ul>
         </div>
     </nav>
@@ -28,11 +34,48 @@
             <p>Découvrez une peau éclatante avec des recommandations de soins sur mesure, analysées par notre intelligence artificielle avancée.</p>
         </div>
     </section>
-<!--
-    <section class="slider">
 
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+            <div class="slide swiper-slide">
+                <img class="image" src="/assets/slider1.jpeg" alt="">
+                <div class="image-data glass">
+                    <h2>Analyse en</br>temps réel</h2>
+                    <span class="text">
+                        Obtenez une analyse instantanée de votre peau pour des recommandations de produits adaptées à vos besoins spécifiques.
+                    </span>
+                    <button class="slide1">En savoir plus</button>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <img class="image" src="/assets/slider2.jpeg" alt="">
+                <div class="image-data glass">
+                    <h2>Routine</br>personnalisées</h2>
+                    <span class="text">
+                        Créez une routine de soins unique en fonction de votre type de peau et de vos objectifs beauté.
+                    </span>
+                    <button>En savoir plus</button>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <img class="image" src="/assets/slider3.jpeg" alt="">
+                <div class="image-data glass">
+                    <h2>Suivi de progrès et</br>ajustements</br>personnalisés</h2>
+                    <span class="text">
+                        Suivez l'évolution de votre peau et ajustez votre routine pour des résultats optimaux.
+                    </span>
+                    <button>En savoir plus</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next nav-btn glass"></div>
+        <div class="swiper-button-prev nav-btn glass"></div>
+        <div class="swiper-pagination"></div>
     </section>
--->
+
     <section>
         <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="99vw" height="60vh" viewBox="0 0 1440 474" fill="none">
             <path d="M271.827 3.39649C150.969 -8.94814 -15.8629 14.9105 -121.844 34.0402C-173.621 43.3861 -199.692 100.177 -174.945 146.608L-103.756 280.179C-94.8346 296.917 -80.3069 309.928 -62.5342 316.551C11.8924 344.288 223.62 418.979 393.867 438.118C609.509 462.361 738.099 413.838 958.851 419.994C1142.58 425.117 1392.57 455.558 1525.33 473.258C1573.76 479.713 1617 442.113 1617 393.263V244.678C1617 210.153 1594.92 179.559 1561.85 169.612C1471.52 142.434 1287.5 91.2481 1141.91 77.7889C992.563 63.9817 903.584 87.4028 752.907 77.7889C594.268 67.6668 462.515 22.8738 271.827 3.39649Z" fill="#FFCCE5"/>
@@ -58,19 +101,19 @@
             </div>
         </div>
 
-        <svg class="svg2" xmlns="http://www.w3.org/2000/svg" width="870" height="787" viewBox="0 0 870 787" fill="none">
+        <svg class="svg2" xmlns="http://www.w3.org/2000/svg" width="40vw" height="80vh" viewBox="0 0 870 787" fill="none">
             <path d="M177.647 104.364C490.205 -3.0225 603.687 -63.3244 759.652 104.364C906.783 262.555 906.783 503.043 759.652 661.233C603.687 828.922 333.613 828.922 177.647 661.233C30.5166 503.043 -134.911 211.751 177.647 104.364Z" fill="#CFFFC1"/>
         </svg> 
 
-        <svg class="svg3" xmlns="http://www.w3.org/2000/svg" width="659" height="655" viewBox="0 0 659 655" fill="none">
+        <svg class="svg3" xmlns="http://www.w3.org/2000/svg" width="35vw" height="75vh" viewBox="0 0 659 655" fill="none">
             <path d="M422.259 652.083C160.213 620.376 56.8984 624.906 10.9995 442.536C-32.2995 270.496 59.9301 89.4851 224.564 23.3921C399.083 -46.6695 589.925 50.5689 635.823 232.939C679.122 404.979 684.304 683.79 422.259 652.083Z" fill="#FFF8B8"/>
         </svg>
 
-        <svg class="svg4" xmlns="http://www.w3.org/2000/svg" width="758" height="730" viewBox="0 0 758 730" fill="none">
+        <svg class="svg4" xmlns="http://www.w3.org/2000/svg" width="38vw" height="80vh" viewBox="0 0 758 730" fill="none">
             <path d="M78.1624 175.05C162.66 82.6149 312.016 -21.8536 496.935 3.99763C581.381 15.803 649.427 272.53 697.964 335.619C789.573 454.694 755.088 566.557 732.052 615.142C723.908 632.32 708.869 644.348 691.045 650.96C587.146 689.502 211.051 813.29 78.1624 640.559C-44.0785 481.668 -6.33477 267.484 78.1624 175.05Z" fill="#E1D4FF"/>
           </svg>
 
-          <svg class="svg5" xmlns="http://www.w3.org/2000/svg" width="554" height="438" viewBox="0 0 554 438" fill="none">
+          <svg class="svg5" xmlns="http://www.w3.org/2000/svg" width="30vw" height="65vh" viewBox="0 0 554 438" fill="none">
             <path d="M508.418 311.315C452.088 370.518 349.517 440.833 214.61 437.457C153.003 435.915 90.7572 290.618 52.4768 256.923C-13.5945 198.766 -3.18066 137.459 9.91596 104.633C16.5369 88.0389 31.0069 76.7653 47.6523 70.2731C128.536 38.7256 382.674 -49.7341 484.686 40.0584C581.095 124.92 564.748 252.112 508.418 311.315Z" fill="#A1CFFF"/>
           </svg>
 
@@ -131,5 +174,23 @@
         </div>
     </footer>
     
+    <!-- Swiper JS -->
+    <script src="/js/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 </html>
