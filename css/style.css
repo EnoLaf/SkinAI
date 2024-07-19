@@ -530,6 +530,34 @@ button:hover{
         font-size: 50px;
     }
 
+    .svg1{
+        top: 1220px;
+    }
+
+    .svg2{
+        top: 1550px;
+        left: 10px;
+        width: 70vw;
+    }
+    
+    .svg3{
+        top: 2050px;
+        left: 150px;
+        width: 65vw;
+    }
+    
+    .svg4{
+        top: 2440px;
+        left: 20px;
+        width: 75vw;
+    }
+    
+    .svg5{
+        top: 2750px;
+        left: 150px;
+        width: 60vw;
+    }
+
 }
 
 /* Tablet */
@@ -596,6 +624,7 @@ button:hover{
         gap: 50px;
         height: auto;
         padding: 0 50px;
+        margin-top: 20vh;
     }
     .newsletter-container{
         width: 50%;
@@ -615,5 +644,33 @@ button:hover{
     
     .footer-links{
         font-size: 16px;
+    }
+
+    .svg1{
+        top: 1220px;
+    }
+
+    .svg2{
+        top: 1850px;
+        left: 50px;
+        width: 50vw;
+    }
+    
+    .svg3{
+        top: 2050px;
+        left: 330px;
+        width: 50vw;
+    }
+    
+    .svg4{
+        top: 2250px;
+        left: 20px;
+        width: 50vw;
+    }
+    
+    .svg5{
+        top: 2500px;
+        left: 250px;
+        width: 43vw;
     }
 }
