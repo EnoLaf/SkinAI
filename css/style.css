@@ -172,6 +172,7 @@ p{
 
 .grid-container { 
     margin-top: 10vh;
+    border: 2px solid bla;
     justify-content: center;
     display: grid;
     grid-template-columns: 15vw 15vw 15vw 15vw;
@@ -297,4 +298,29 @@ p{
 .app{
     width: 20vw;
     transform: translateY(-13%);
+}
+
+.footer{
+    background-color: var(--purple);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 10vw;
+}
+
+.footer-links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Lustria';
+    font-size: 18px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
